@@ -1,14 +1,50 @@
+# Visual-Graph-cPlusPlus
 
-# Visual Graph and Shortest Path Calculator
+Course:     CS112 Lab\
+Semester:   3\
+University: GIKI\
+Instructor: Usama Arshad
 
-Interactive graph of GIKI, clicking on points of interest calculates the shortest path between them
+
 ## Authors
 
-- [muhammadabdullah15](https://github.com/muhammadabdullah15)
-- [Umert306](https://github.com/Umert306)
-- [Mohammad-Omar-Khan](https://github.com/Mohammad-Omar-Khan)
-## Appendix
+- Muhammad Abdullah&emsp; &emsp;(2021317) ([@muhammadabdullah15](https://github.com/muhammadabdullah15/))
+- Mohammad Umer Tayyab (2021306) ([@Umert306](https://github.com/Umert306))
+- Mohammad Omar Khan&emsp; (2021305) ([@Mohammad-Omar-Khan](https://github.com/Mohammad-Omar-Khan))
 
-Libraries used
-- SFML
 
+## Summary
+
+report
+
+
+## Dependencies
+
+- C++
+- Required Libraries: SFML
+
+SFML installation:
+- Linux / Ubuntu:
+```bash
+  sudo apt-get install libsfml-dev
+```
+- Other OS:
+(https://www.sfml-dev.org/download.php)
+
+    
+## How to Run
+- Download/Clone Repository
+- Compile using:
+```bash
+g++ -c FinalProject.cpp
+g++ FinalProject.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+```
+- Run using:
+```bash
+./sfml-app
+```
+
+## Roadmap
+
+- Automate adding locations & paths through APIs
+- Increase the scale of the project by incorporating a larger map
